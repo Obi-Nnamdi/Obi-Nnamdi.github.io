@@ -9,10 +9,60 @@ html{
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
 body{
   /*background-color:#353353;*/
   /*background-color: #A0F2F4;*/
   background-color: white;
+}
+
+#container {
+  width: 100%;
+}
+
+#content {
+  width:87%; 
+  height:100%; 
+  float:right;
+}
+
+#sidebar {
+  width:13%;
+  height:100%;
+  float: left;
+  position:fixed;
+  }
+
+.inner-left{
+  display: block;
+  padding: 10em 1em;
+  margin-right: .5em;
+  border-right: #999999 2px solid;
+  height: 120vh;
+}
+div.inner-left ul li{
+  margin: 3em auto;
+}
+
+div.inner-left ul li a{
+  font-size: 1.5em;
+  transition: font-size ease-in-out .1s;
+}
+
+
+div.inner-left ul li a:hover {
+  font-size: 1.7em;
+}
+
+
+#myimage {
+  display: block;
+  margin: .5em auto;
+  border-radius: 50%;
+  height: 10em;
 }
 
 h1 {
@@ -23,8 +73,8 @@ h1 {
 }
 
 h2.sect {
-  margin-left: 8em;
-  margin-bottom: .5em;
+  margin: 2em 0em .5em 8em;
+  font-size: 2.5em;
 }
 
 div.sect hr {
@@ -57,33 +107,40 @@ nav li:hover {
   background-color: #F0F3BD;
 }
 
+ul.nostyle {
+  list-style: none;
+}
+
 nav ul li a {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 
 section.info p {
+  display:block;
   font-size: 1.2em;
   max-width: auto;
   text-indent: 3em;
-  margin: 5px 8em;
+  margin: 5px auto;
   margin-bottom: 5em;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 section.info ul{
-  margin-left: 8em;
+  display: block;
+  margin: .2em 15em;
 }
 section.info ul li{
   font-size: 1.5em;
+}
+section.info ul li ul li{
+  font-size: 1rem;
+  text-indent: -7.8em;
+  margin: 0em;
+  min-width: 30em;
 }
 
 footer {
   margin: 2em 0em 1em 1em;
   position: relative;
 }
-
-/*.card:hover {
-  background-color: #004E89;
-  border-color: #004E89;
-} - you can have the properties of elements change when you do this. Cool, innit?*/

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  /*background-color:#353353;*/
+  /*background-color: #A0F2F4;*/
+  background-color: white;
+}
+
+h1 {
+  color: #05668D;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 4em;
+}
+
+h2.sect {
+  margin-left: 8em;
+  margin-bottom: .5em;
+}
+
+div.sect hr {
+  margin: 0px 4em 2px 6em;
+  background: white;
+  height: 1px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  font-size: 18px;
+  border: 1.5px solid black;
+  border-radius: 7%;
+  padding: 10px;
+  color: white;
+  width: 120px;
+  padding: auto;
+  display:inline-block;
+  text-align: center;
+}
+
+div.spacer {
+  height: 30em;
+}
+
+nav li:hover {
+  background-color: #F0F3BD;
+}
+
+nav ul li a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+section.info p {
+  font-size: 1.2em;
+  max-width: auto;
+  text-indent: 3em;
+  margin: 5px 8em;
+  margin-bottom: 5em;
+  max-width: 1000px;
+}
+
+section.info ul{
+  margin-left: 8em;
+}
+section.info ul li{
+  font-size: 1.5em;
+}
+
+footer {
+  margin: 2em 0em 1em 1em;
+  position: relative;
+}
+
+/*.card:hover {
+  background-color: #004E89;
+  border-color: #004E89;
+} - you can have the properties of elements change when you do this. Cool, innit?*/
